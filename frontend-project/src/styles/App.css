@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+.App {
+  text-align: center;
+  background: url("../images/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.App-logo {
+   font-size: 1.5rem;
+}
+
+.App-header {
+  
+  font-size: calc(10px + 2vmin);
+}
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem;
+  color: white;
+  font-size: 1.5rem;
+}
+.Button button {
+  margin: 2rem;
+  padding: 0.8rem 3rem;
+  border-radius: 22px;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  color: #735ebb;
+  background-color: white;
+}
+
+.App p {
+  color: white;
+  font-weight: 400;
+  font-size: 27px;
+}
+.p-giris{
+  display:flex;
+  padding-top: 200px;
+}
+.App p .giris-link{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+
+}
+.container-sifre-unuttum, .container-sifre-sifirlama {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+ 
+}
+.header-sifre-unuttum, .header-sifre-sifirlama{
+  color: #8D75E0;
+font-size: 39px;
+font-weight: 700;
+margin-top: 8rem;
+margin-bottom: 2rem;
+}
+.form-sifre-unuttum , .form-sifre-sifirlama{
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
