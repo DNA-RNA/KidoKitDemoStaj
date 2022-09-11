@@ -1,6 +1,6 @@
 import './styles/App.css';
-// import './styles/KayitOl.css'
-// import './styles/GirisYap.css'
+//import './styles/KayitOl.css'
+import './styles/GirisYap.css'
 import {Route, Routes,BrowserRouter} from 'react-router-dom'
 import AnaSayfa from './pages/AnaSayfa';
 import KayitOl from './pages/KayitOl';

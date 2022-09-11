@@ -1,0 +1,53 @@
+.container-giris-yap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.header-giris-yap{
+  color: #8D75E0;
+  font-size: 39px;
+  font-weight: 700;
+  padding-top: 7rem;
+}
+.form-giris{
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form input {
+  height: 44px;
+  width: 343px;
+  margin: 1rem;
+  font-size: 15px;
+  border-radius: 12px;
+  border: 2px solid #735ebb;
+  background: rgba(68, 166, 180, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.form-title{
+    display: block;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35px;   
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.container-giris-yap a {
+  text-decoration: none;
+  color: #173627;
+  padding-bottom: 2rem;
+}
+.container-giris-yap .btn-giris-yap{
+  background: #735EBB;
+  margin-top: 2.5rem;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 22px;
+width: 240px;
+height: 44px;
+color: white;
+font-weight: 700;
+font-size: 16px;
+
+}
