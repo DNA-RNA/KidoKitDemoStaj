@@ -7,6 +7,7 @@ import AnaSayfa from './pages/AnaSayfa';
 import KayitOl from './pages/KayitOl';
 import GirisYap from './pages/GirisYap';
 import SifreUnuttum from './pages/SifreUnuttum';
+import SifreSifirlama from './pages/SifreSifirlama';
 
 
 
@@ -19,7 +20,7 @@ function App() {
     <Route path='/KayitOl' element={<KayitOl/>}/>
     <Route path='/GirisYap' element={<GirisYap/>}/>
     <Route path='/SifremiUnuttum' element={<SifreUnuttum/>}/>
-    
+    <Route path='/SifreSifirlama' element={<SifreSifirlama/>}/>
     
    </Routes>
   </BrowserRouter>
