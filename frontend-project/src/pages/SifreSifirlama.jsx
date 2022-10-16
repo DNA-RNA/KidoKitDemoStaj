@@ -42,10 +42,7 @@ function SifreSifirlama() {
         <span className="form-title-sifre">Activation Linkini giriniz </span>  
         <input className='form-input' type="text" onChange={(e) => setActivationLink(e.target.value)} />  
          <button className='e-posta-btn' type="submit">Şifre Sıfırlama</button>
-         {message ?  <p>{message}</p>  : null}
-
-       
-       
+         {message ?  <p>{message}</p>  : null} 
         </form>
     
      </div>
